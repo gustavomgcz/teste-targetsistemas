@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Target Sistemas</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="fibonacci.js" defer></script>
+    <script src="string-check.js" defer></script>
+    <script src="res-sum.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="tecnicas">
+        <h1>Técnica 1:</h1>
+        <div>
+          <label for="number">Digite um número:</label>
+          <input type="number" id="number" placeholder="Informe um número" />
+          <button class="check-fibonacci">Verificar</button>
+        </div>
+        <p id="result1"></p>
+      </section>
+      <section class="tecnicas">
+        <h1>Técnica 2:</h1>
+        <div>
+          <label for="user-text">Digite alguma coisa:</label>
+          <input
+            type="text"
+            id="user-text"
+            placeholder="Digite alguma coisa"
+          />
+          <button class="check-a">Verificar</button>
+        </div>
+        <p id="result2"></p>
+      </section>
+      <section class="tecnicas">
+        <h1>Técnica 3:</h1>
+        <p>Considerando INDICE = 12, SOMA = 0 e K = 1</p>
+        <p>Ao termino da iteração de K &lt; INDICE</p>
+        <p id="result3"></p>
+      </section>
+      <section class="tecnicas">
+        <h1>Técnica 4:</h1>
+        <p>Completando o ultimo elemento seguindo a lógica:</p>
+        <ol class="alpha">
+          <li>1, 3, 5, 7, <span>9</span></li>
+          <li>2, 4, 8, 16, 32, 64, <span>128</span></li>
+          <li>0, 1, 4, 9, 16, 25, 36, <span>49</span></li>
+          <li>4, 16, 36, 64, <span>100</span></li>
+          <li>1, 1, 2, 3, 5, 8, <span>13</span></li>
+          <li>2,10, 12, 16, 17, 18, 19, <span>20</span></li>
+        </ol>
+      </section>
+      <section class="tecnicas">
+        <h1>Técnica 5:</h1>
+        <p>
+          Identificando qual interruptor controla qual lampada com apenas duas
+          idas a sala:
+        </p>
+        <ol class="numeric">
+          <li>Ligar o interruptor A</li>
+          <li>Aguardar alguns minutos para que a lampada esquente</li>
+          <li>Desligar o interruptor A</li>
+          <li>Ligar o interruptor B</li>
+          <li>Ir até a sala</li>
+          <li>Toque em alguma lampada apagada</li>
+          <li>
+            Se a lampada estiver quente, lampada referente ao interruptor A
+          </li>
+          <li>Lampada com a luz acesa = interruptor B</li>
+          <li>Se a lampada estiver fria, lampada referente ao interruptor C</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
